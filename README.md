@@ -1,8 +1,19 @@
 # rhoai-status
 
-**Disclaimer**: This project or the binary files available in the `Releases` area are `NOT` delivered and/or released by Red Hat. This is an independent project to help customers and Red Hat Support team to export and/or collect some data from your `OCP cluster` for reporting or troubleshooting purposes.
+## Disclaimer
+This project or the binary files available in the `Releases` area are `NOT` delivered and/or released by Red Hat. This is an independent project to help customers and Red Hat Support team to export and/or collect some data from your `OCP cluster` for reporting or troubleshooting purposes. Also, this is not changing anything, just running some queries.
 
 ---
+
+## How to deploy it?
+```
+wget https://raw.githubusercontent.com/QikfixAI/rhoai-status/refs/heads/main/rhoai-status.sh
+bash rhoai-status.sh
+```
+
+---
+
+## Main Purpose
 
 This script will collect some information from your `OCP Cluster`, in a way that will present the current state of your cluster, presenting if all the necessary operators for `RHOAI` got installed properly, and also if some necessary componentes are available.
 
